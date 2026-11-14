@@ -6,7 +6,7 @@ output_file = "experiments/srgnn_retailrocket_deletion_aug_seed2028/robustness_r
 checkpoint = "best_model.pt"
 batch_size = 100
 device = "auto"
-num_workers = 6
+num_workers = 0
 
 [data]
 artifact_repository = "CSCI-566-SB/srgnn-processed-retailrocket"
